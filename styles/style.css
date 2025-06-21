@@ -38,12 +38,6 @@ body {
     right: 6px;
 }
 
-
-.address_item {
-    font-family: Raleway, sans-serif;
-    font-size: 1px;
-}
-
 .without-circle {
     list-style-type: none;
 }
