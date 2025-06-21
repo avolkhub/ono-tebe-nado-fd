@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns:font-size="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -14,10 +14,16 @@
 
 <header class="header">
     <nav class="navbar">
-        <ul class="header_menu_list">
-            <li class="header_menu_item without-circle"><a class="first-element">ГЛАВНАЯ</a></li>
-            <li class="header_menu_item"><a href="#">ПОСМОТРЕТЬ ЛОТЫ</a></li>
-            <li class="header_menu_item"><a href="#">ОБ АУКЦИОНЕ</a></li>
+        <ul class="header_menu_list font_style_raleway">
+            <li class="header_menu_item without-circle">
+                <a class="font_style_raleway first-element">главная</a>
+            </li>
+            <li class="header_menu_item">
+                <a class="header_menu_item font_style_raleway" href="#">посмотреть лоты</a>
+            </li>
+            <li class="header_menu_item">
+                <a class="header_menu_item font_style_raleway" href="#">об аукционе</a>
+            </li>
         </ul>
     </nav>
     <a class="header-logo">
@@ -25,18 +31,16 @@
              alt="На белом фоне в столбик прописана фраза оно тебе надо">
     </a>
     <address class="address header-address">
-        <a class="address_item" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address_item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address_item font_style_raleway" href="tel:+99995555555">+9 999 555 5555</a>
         <br>
-        <p class="address_item">наб. Принсенграхт 263-
-            <wbr>
-            265,
-            <wbr>
-            Амстердам
+        <a class="address_item font_style_raleway" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br>
+        <p class="address_item font_style_raleway">наб. Принсенграхт 263-
+            <br>
+            265, Амстердам
         </p>
     </address>
 </header>
-
 <main>
     <section class="cover">
         <h1 class="title">
@@ -45,17 +49,16 @@
             <span class="item_3">НАДО</span>
             <span class="description">
                 <span class="cover_description">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</span>
-                <button class="button_bet"><span class="cover_description_button">СДЕЛАТЬ СТАВКУ</span></button>
+                <button class="button_bet">
+                    СДЕЛАТЬ СТАВКУ
+                </button>
             </span>
         </h1>
-
         <div class="overlay"></div>
     </section>
-
     <section class="lots">
         <h2 class="lots_title">ЛОТЫ</h2>
         <ul class="lots_card-list">
-
             <li class="lots_card-list-item">
                 <a class="card-link" href="#0">
                     <article class="card card_type_film">
@@ -63,12 +66,9 @@
                         <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                         <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если
                             бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-
                     </article>
                 </a>
-
             </li>
-
             <li class="lots_card-list-item">
                 <a class="card-link" href="">
                     <article class="card card_type_book">
@@ -80,7 +80,6 @@
                         <div class="overlay"></div>
                     </article>
                 </a>
-
             </li>
 
             <li class="lots_card-list-item">
@@ -97,24 +96,27 @@
             </li>
 
         </ul>
-        <a href="#" class="lots__look-more-link">посмотреть больше</a>
+        <a href="#" class="lots__look-more-link font_style_raleway">посмотреть больше</a>
     </section>
 
-    <section class="about">
+    <section class="section__about">
 
         <div class="logo-column">
             <div class="about__logo"></div>
         </div>
 
         <div class="about-column">
-            <h2 class="about__title">ОБ АУКЦИОНЕ</h2>
-            <div class="about__text"><p class="about__text-item-first">Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-                антиквариата. Наши лоты вообще не
-                должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
-                которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-                <p class="about__text-item-second">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и
+            <h2 class="about__title">об аукционе</h2>
+            <div class="about__text">
+                <p class="about__text-item-first">Здесь вы не встретите очередное пафосное собрание невероятно дорогого
+                    антиквариата. Наши лоты вообще не
+                    должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
+                    которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+                </p>
+                <p class="about__text-item-second">Слишком сложные или, наоборот, слишком простые. Опережающие своё
+                    время. В пух и
                     прах растерзанные
-                    критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+                    критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря <br>
                     на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить
                     современную
                     культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
@@ -126,27 +128,49 @@
 
 <footer class="footer">
     <address class="address footer_address">
-        <a class="address_item" href="tel:+99995555555">+9 999 555 5555</a><br>
-        <a class="address_item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="footer__address_item font_style_raleway" href="tel:+99995555555">+9 999 555 5555</a>
         <br>
-        <p class="address_item">наб. Принсенграхт 263-265,<br>
-             Амстердам
+        <a class="footer__address_item font_style_raleway" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br>
+        <p class="footer__address_item font_style_raleway">наб. Принсенграхт 263-265,<br>
+            Амстердам
         </p>
     </address>
     <nav class="footer__menu">
         <ul class="footer__menu-list">
-            <li class="footer__menu-list-item"><a class="first-element">ГЛАВНАЯ</a></li>
-            <li class="footer__menu-list-item"><a href="#">ПОСМОТРЕТЬ ЛОТЫ</a></li>
-            <li class="footer__menu-list-item"><a href="#">ОБ АУКЦИОНЕ</a></li>
+            <li class="footer__menu-list-item">
+                <a class="font_style_raleway footer__menu-list-link first-element">главная</a>
+            </li>
+            <li class="footer__menu-list-item">
+                <a class="font_style_raleway footer__menu-list-link" href="#">посмотреть
+                    лоты</a></li>
+            <li class="footer__menu-list-item">
+                <a class="font_style_raleway footer__menu-list-link" href="#">об
+                    аукционе</a></li>
         </ul>
     </nav>
     <ul class="social-links">
-        <li class="footer__social-list-item"><a class="footer__social-link"><img class="footer__social-icon" src="images/yt.svg" alt="Изображение иконки YouTube"></a></li>
-        <li class="footer__social-list-item"><a class="footer__social-link"><img class="footer__social-icon" src="images/vk.svg" alt="Изображение иконки ВКонтакте"></a></li>
-        <li class="footer__social-list-item"><a class="footer__social-link"><img class="footer__social-icon" src="images/pinterest.svg" alt="Изображение иконки Pinterest"></a></li>
+        <li class="footer__social-list-item">
+            <a class="footer__social-link">
+                <img class="footer__social-icon"
+                     src="images/yt.svg"
+                     alt="Изображение иконки YouTube">
+            </a>
+        </li>
+        <li class="footer__social-list-item">
+            <a class="footer__social-link">
+                <img class="footer__social-icon"
+                     src="images/vk.svg"
+                     alt="Изображение иконки ВКонтакте">
+            </a>
+        </li>
+        <li class="footer__social-list-item">
+            <a class="footer__social-link">
+                <img class="footer__social-icon"
+                     src="images/pinterest.svg"
+                     alt="Изображение иконки Pinterest">
+            </a>
+        </li>
     </ul>
-
-</footer>
-
 </body>
 </html>
